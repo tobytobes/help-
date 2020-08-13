@@ -4,7 +4,7 @@ frequently at it? i think you know the answer to that...-->
 <?php
 
 if (isset($_POST['submit'])) {
-    require "../config";
+    require "../config.php";
 		
 		try {
 		$connection = new PDO($dsn, $username, $password, $options);
